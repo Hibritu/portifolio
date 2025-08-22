@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -11,6 +14,13 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-6px); }
+  100% { transform: translateY(0px); }
+}
+.animate-float { animation: float 6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .animate-float { animation: none !important; } }
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -19,8 +29,35 @@
   }
 }
 
+
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+.scrollbar-none {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.scrollbar-none::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-none::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-none::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 4px;
+}
+/* Hide scrollbars cross-browser */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;            /* Chrome, Safari, Opera */
 }
