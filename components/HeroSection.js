@@ -85,6 +85,8 @@ export default function HeroSection() {
     loading="eager"
     decoding="async"
   />
+  
+
 </div>
         
       </div>
