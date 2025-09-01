@@ -72,12 +72,12 @@ export default function WhatIDo() {
                 </li>
                 <li>
                   <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
-                    Rental App
+                    Sofi website 
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
-                    Internship App
+                    Ewnet communication Internship apply system  
                   </a>
                 </li>
                                   <li>
