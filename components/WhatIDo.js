@@ -1,4 +1,4 @@
-import { FiCode, FiLayout, FiArchive, FiSmartphone, FiBriefcase, FiGlobe, FiExternalLink } from "react-icons/fi";
+import { FiCode, FiLayout, FiArchive, FiSmartphone, FiBriefcase, FiExternalLink } from "react-icons/fi";
 import { FaFigma } from "react-icons/fa";
 
 export default function WhatIDo() {
@@ -39,14 +39,13 @@ export default function WhatIDo() {
               needs using cutting-edge technologies.
             </p>
 
-            {/* Restaurant Management System - screenshots gallery (full image, no crop) */}
+            {/* Restaurant Management System - screenshots gallery */}
             <h4 className="mt-2 text-sm font-semibold text-white">Restaurant Management System</h4>
             <div
               className="mt-1 -mx-2 px-1 overflow-x-auto no-scrollbar scroll-smooth"
               aria-label="Restaurant Management System screenshots gallery"
             >
               <div className="flex snap-x snap-mandatory gap-0 sm:gap-4">
-                
                 {screenshots1.map((src, i) => (
                   <div
                     key={i}
@@ -71,33 +70,34 @@ export default function WhatIDo() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-3">
+                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
                     Sofi website 
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-3">
+                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
                     Ewnet communication Internship apply system  
                   </a>
                 </li>
-                                  <li>
+                <li>
                   <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
-                    create and verify certeficate system 
+                    Create and verify certificate system 
                   </a>
                 </li>
               </ul>
+
               <ul className="mt-2 text-sm text-gray-300">
-              <li>
-                <a
-                  href=""
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-green-400 inline-flex items-center gap-2"
-                >
-                   <FiExternalLink />
-                </a>
-              </li>
-            </ul>
+                <li>
+                  <a
+                    href=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-green-400 inline-flex items-center gap-2"
+                  >
+                    <FiExternalLink />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -106,14 +106,14 @@ export default function WhatIDo() {
         <div className="flex sm:gap-4 gap-2 p-4 rounded-lg border border-gray-700 bg-gray-900/40">
           <span className="sm:text-5xl text-3xl text-green-400"><FiLayout /></span>
 
-          <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-white">moblie app</h3>
+          <div className="flex flex-col gap-2 w-full">
+            <h3 className="text-xl font-semibold text-white">Mobile App</h3>
             <p className="text-gray-400">
               Designing accessible, scalable components and delightful
-              experiences with flutter with provider state managment.
+              experiences with Flutter and Provider state management.
             </p>
-          </div>
-                <div className="mt-3">
+
+            <div className="mt-3">
               <h4 className="text-sm font-semibold text-white">Projects</h4>
               <ul className="mt-1 text-sm text-gray-300 space-y-1 list-disc list-inside">
                 <li>
@@ -121,12 +121,14 @@ export default function WhatIDo() {
                     Rental asset system app
                   </a>
                 </li>
-                                <li>
+                <li>
                   <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
                     News app
                   </a>
                 </li>
-                </div>
+              </ul>
+            </div>
+          </div>
         </div>
 
         {/* 3 */}
@@ -134,24 +136,21 @@ export default function WhatIDo() {
           <span className="sm:text-5xl text-3xl text-green-400"><FiArchive /></span>
 
           <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-white">
-              API Integration
-            </h3>
+            <h3 className="text-xl font-semibold text-white">API Integration</h3>
             <p className="text-gray-400">
               Robust REST integrations, auth, caching, and error handling for
-              reliable, high‑performance apps.
+              reliable, high-performance apps.
             </p>
           </div>
         </div>
+
         <div className="flex sm:gap-4 gap-2 p-4 rounded-lg border border-gray-700 bg-gray-900/40">
           <span className="sm:text-5xl text-3xl text-green-400"><FiArchive /></span>
 
           <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-white">
-            payment  Integration
-            </h3>
+            <h3 className="text-xl font-semibold text-white">Payment Integration</h3>
             <p className="text-gray-400">
-              payment integration with chapa
+              Payment integration with Chapa
             </p>
           </div>
         </div>
@@ -162,7 +161,7 @@ export default function WhatIDo() {
           <div className="flex flex-col gap-2">
             <h3 className="text-xl font-semibold text-white">Mobile Apps</h3>
             <p className="text-gray-400">
-              Cross‑platform Flutter apps with native performance and clean architecture.
+              Cross-platform Flutter apps with native performance and clean architecture.
             </p>
           </div>
         </div>
@@ -173,13 +172,13 @@ export default function WhatIDo() {
           <div className="flex flex-col gap-2">
             <h3 className="text-xl font-semibold text-white">Backend & DevOps</h3>
             <p className="text-gray-400">
-              Node.js & Laravel APIs, databases, postgres, mongoDB, Mysql, logging, and monitoring.
+              Node.js & Laravel APIs, databases (Postgres, MongoDB, MySQL), logging, and monitoring.
             </p>
           </div>
         </div>
 
-
- <div className="flex sm:gap-4 gap-2 p-4 rounded-lg border border-gray-700 bg-gray-900/40">
+        {/* 6 */}
+        <div className="flex sm:gap-4 gap-2 p-4 rounded-lg border border-gray-700 bg-gray-900/40">
           <span className="sm:text-5xl text-3xl text-green-400"><FiLayout /></span>
 
           <div className="flex flex-col gap-2">
@@ -190,10 +189,6 @@ export default function WhatIDo() {
             </p>
           </div>
         </div>
-        
-
-     
-        
       </div>
     </section>
   );
