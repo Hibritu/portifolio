@@ -65,17 +65,17 @@ export default function WhatIDo() {
               <h4 className="text-sm font-semibold text-white">Projects</h4>
               <ul className="mt-1 text-sm text-gray-300 space-y-1 list-disc list-inside">
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                  <a href="https://github.com/Hibritu/Restaurant-managment-system" className="hover:text-green-400 inline-flex items-center gap-2">
                     Restaurant Management System
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                  <a href="https://github.com/Hibritu/sofi_back" className="hover:text-green-400 inline-flex items-center gap-2">
                     Sofi website 
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                  <a href="https://github.com/ewenet-communication/Intern-reg-sys" className="hover:text-green-400 inline-flex items-center gap-2">
                     Ewnet communication Internship apply system  
                   </a>
                 </li>
@@ -117,12 +117,12 @@ export default function WhatIDo() {
               <h4 className="text-sm font-semibold text-white">Projects</h4>
               <ul className="mt-1 text-sm text-gray-300 space-y-1 list-disc list-inside">
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                  <a href="https://github.com/Hibritu/rentApp-with-nodejs-and-express-" className="hover:text-green-400 inline-flex items-center gap-2">
                     Rental asset system app
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                  <a href="https://github.com/Hibritu/New-app-with-flutter" className="hover:text-green-400 inline-flex items-center gap-2">
                     News app
                   </a>
                 </li>
