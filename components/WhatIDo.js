@@ -71,12 +71,12 @@ export default function WhatIDo() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-3">
                     Sofi website 
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-3">
                     Ewnet communication Internship apply system  
                   </a>
                 </li>
@@ -94,7 +94,7 @@ export default function WhatIDo() {
                   rel="noopener noreferrer"
                   className="hover:text-green-400 inline-flex items-center gap-2"
                 >
-                  your-deployed-site.com <FiExternalLink />
+                   <FiExternalLink />
                 </a>
               </li>
             </ul>
