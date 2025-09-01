@@ -80,11 +80,16 @@ export default function WhatIDo() {
                     Internship App
                   </a>
                 </li>
+                                  <li>
+                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                    create and verify certeficate system 
+                  </a>
+                </li>
               </ul>
               <ul className="mt-2 text-sm text-gray-300">
               <li>
                 <a
-                  href="https://your-deployed-site.com"
+                  href=""
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-green-400 inline-flex items-center gap-2"
@@ -102,12 +107,26 @@ export default function WhatIDo() {
           <span className="sm:text-5xl text-3xl text-green-400"><FiLayout /></span>
 
           <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-white">UI/UX Engineering</h3>
+            <h3 className="text-xl font-semibold text-white">moblie app</h3>
             <p className="text-gray-400">
               Designing accessible, scalable components and delightful
-              experiences with Tailwind, Headless UI, and motion.
+              experiences with flutter with provider state managment.
             </p>
           </div>
+                <div className="mt-3">
+              <h4 className="text-sm font-semibold text-white">Projects</h4>
+              <ul className="mt-1 text-sm text-gray-300 space-y-1 list-disc list-inside">
+                <li>
+                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                    Rental asset system app
+                  </a>
+                </li>
+                                <li>
+                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
+                    News app
+                  </a>
+                </li>
+                </div>
         </div>
 
         {/* 3 */}
@@ -159,26 +178,19 @@ export default function WhatIDo() {
           </div>
         </div>
 
-        {/* 7 - Deployed Websites */}
-        <div className="flex sm:gap-4 gap-2 p-4 rounded-lg border border-gray-700 bg-gray-900/40">
-          <span className="sm:text-5xl text-3xl text-green-400"><FiGlobe /></span>
+
+ <div className="flex sm:gap-4 gap-2 p-4 rounded-lg border border-gray-700 bg-gray-900/40">
+          <span className="sm:text-5xl text-3xl text-green-400"><FiLayout /></span>
+
           <div className="flex flex-col gap-2">
-            <h3 className="text-xl font-semibold text-white">Deployed Websites</h3>
-            <p className="text-gray-400">Production-ready sites deployed on modern hosting (Vercel, Netlify, AWS).</p>
-            <ul className="mt-1 text-sm text-gray-300 space-y-1">
-              <li>
-                <a href="https://your-deployed-site.com" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 inline-flex items-center gap-2">
-                  your-deployed-site.com <FiExternalLink />
-                </a>
-              </li>
-              <li>
-                <a href="https://another-site.example" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 inline-flex items-center gap-2">
-                  another-site.example <FiExternalLink />
-                </a>
-              </li>
-            </ul>
+            <h3 className="text-xl font-semibold text-white">UI/UX Engineering</h3>
+            <p className="text-gray-400">
+              Designing accessible, scalable components and delightful
+              experiences with Tailwind, Headless UI, and motion.
+            </p>
           </div>
         </div>
+        
 
         {/* 8 - Figma Mobile App Screenshots */}
         
