@@ -192,7 +192,7 @@ export default function WhatIDo() {
         </div>
         
 
-        {/* 8 - Figma Mobile App Screenshots */}
+     
         
       </div>
     </section>
