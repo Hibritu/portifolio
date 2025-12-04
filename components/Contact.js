@@ -53,7 +53,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="md:pt-20 pt-10 md:px-20 px-4 bg-[#111111]" id="contact">
+    <section className="md:pt-20 pt-10 md:px-20 px-4 bg-[#111111]  min-h-[90vh] " id="contact">
       {/* ... existing contact info (email, phone, github, etc.) ... */}
 
       {/* Message Form */}

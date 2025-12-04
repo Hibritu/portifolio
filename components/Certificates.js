@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Certificates() {
   return (
-    <section className="md:pt-20 pt-10 md:px-20 px-4 bg-[#111111]" id="certificates">
+    <section className="md:pt-20 pt-10 md:px-20 px-4 bg-[#111111]  min-h-[90vh] " id="certificates">
       <div className="w-fit">
         <h2 className="text-2xl font-bold text-white pb-2">Certificates</h2>
         <div className="rounded-t-full border-[1px] border-gray-500 overflow-hidden">
@@ -12,14 +12,14 @@ export default function Certificates() {
         </div>
       </div>
 
-      <div className="flex flex-row flex-wrap justify-center gap-8 mt-8">
+      <div className="flex flex-row flex-wrap justify-center gap-10 mt-8">
         <div className="text-white text-center">
               <h3 className="text-lg font-semibold mb-2">Front end developer libraries</h3>
          
          <img
   src="/images/fcc.jpg"
   alt="Flutter App Development Certificate"
-  className="w-60 rounded shadow-lg mx-auto" // sets fixed width
+  className="w-100 rounded shadow-lg mx-auto" // sets fixed width
 />
 
         </div>
@@ -30,7 +30,7 @@ export default function Certificates() {
           <img
             src="/images/cer.png"
             alt="Cybersecurity Fundamentals Certificate"
-            className="w-70 rounded shadow-lg mx-auto"
+            className="w-100  rounded shadow-lg mx-auto"
           />
         </div>
       </div>

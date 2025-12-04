@@ -5,11 +5,11 @@ import React from 'react';
 
 export default function Education() {
   return (
-    <section className="md:pt-20 pt-10 md:px-20 px-4 bg-[#111111]" id="education">
+    <section className="md:pt-28 pt-10 md:px-24 px-4 bg-[#111111]  min-h-[90vh]" id="education">
       <div className="w-fit">
         <h2 className="text-2xl font-bold text-white pb-2">Education</h2>
         <div className="rounded-t-full border-[1px] border-gray-500 overflow-hidden">
-          <hr className="border-[3px] border-green-400 w-[20%]" />
+          <hr className="border-[3px] border-green-400 w-[60%]" />
         </div>
       </div>
 

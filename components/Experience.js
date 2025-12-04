@@ -5,7 +5,7 @@ import { FaBriefcase } from 'react-icons/fa';
 
 export default function Experience() {
   return (
-    <section className="md:pt-20 pt-10 md:px-20 px-4 bg-[#111111]" id="experience">
+    <section className="md:pt-32 pt-16 md:pb-24 pb-12 md:px-20 px-4 bg-[#111111] min-h-[90vh]" id="experience">
       <div className="w-fit">
         <h2 className="text-2xl font-bold text-white pb-2">Experience</h2>
         <div className="rounded-t-full border-[1px] border-gray-500 overflow-hidden">
@@ -13,7 +13,7 @@ export default function Experience() {
         </div>
       </div>
 
-      <div className="space-y-6 mt-8">
+      <div className="space-y-6 mt-18">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="flex items-start">
             <FaBriefcase className="text-3xl text-green-400 mt-1" />

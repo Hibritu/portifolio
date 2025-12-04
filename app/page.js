@@ -22,6 +22,15 @@ export default function Home() {
         <Navbar />
         <div className="w-full h-full flex flex-col items-center">
           <HeroSection />
+          {/* Main sections rendered on the home page */}
+          <main className="w-full">
+            <WhatIDo />
+            <Skills />
+            <Education />
+            <Experience />
+            <Certificates />
+            <Contact />
+          </main>
             
        
           {/* Footer */}
