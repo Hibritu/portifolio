@@ -83,7 +83,7 @@ export default function WhatIDo() {
   <h3>Create and verify certificate system</h3>
   <a
     href="https://my-frontend-dfv15dp5n-hibritus-projects.vercel.app"
-    className="hover:text-green-400 inline-flex items-center gap-2"
+    className=" text-green-400 inline-flex items-center gap-2"
     target="_blank"
     rel="noopener noreferrer"
   >
