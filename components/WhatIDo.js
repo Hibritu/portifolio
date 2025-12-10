@@ -80,10 +80,17 @@ export default function WhatIDo() {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-green-400 inline-flex items-center gap-2">
-                    Create and verify certificate system 
-                  </a>
-                </li>
+  <h3>Create and verify certificate system</h3>
+  <a
+    href="https://my-frontend-dfv15dp5n-hibritus-projects.vercel.app"
+    className="hover:text-green-400 inline-flex items-center gap-2"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Live Demo
+  </a>
+</li>
+               
               </ul>
 
               <ul className="mt-2 text-sm text-gray-300">
