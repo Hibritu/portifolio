@@ -32,7 +32,7 @@ export default function HeroSection() {
           </h4>
 
           <p className="mt-4 text-lg text-gray-300">
-            Full‑stack developer crafting responsive, accessible, and scalable products with
+            a Full‑stack developer crafting responsive, accessible, and scalable products with
             Next.js, Node.js (Express), Laravel, and Flutter.
           </p>
           <div className="mt-6 flex items-center gap-6 sm:justify-start justify-center" aria-label="Social links">
