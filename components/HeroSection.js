@@ -63,7 +63,7 @@ export default function HeroSection() {
               </button>
             </a>
 
-            <a href="/api/download" download="Hibr_Diresss_CV.pdf">
+            <a href="/api/download" download="Hibritu_Diresss_CV.pdf">
   <button className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-yellow-500 hover:bg-yellow-600 transition">
     Download CV
   </button>
