@@ -17,8 +17,9 @@ export default function Education() {
         <li className="flex gap-4 items-start">
          
           <div className="text-white">
-            <h3 className="text-lg font-semibold">I am currently pursuing a B.Sc. in Software Engineering student</h3>
-            <p className="text-sm text-gray-400">Bahir Dar University (2021–2025)</p>
+            <h3 className="text-lg font-semibold">B.Sc. in Software Engineering</h3>
+            <p className="text-sm text-gray-400">Bahir Dar University (2021–2026)</p>
+             <p className="text-sm text-gray-400">Graduated: 2026</p>
           </div>
         </li>
       </ul>
