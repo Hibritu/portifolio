@@ -18,6 +18,7 @@ export default function Certificates() {
          
          <img
   src="/images/fcc.jpg"
+
   alt="Flutter App Development Certificate"
   className="w-100 rounded shadow-lg mx-auto" // sets fixed width
 />
@@ -30,6 +31,15 @@ export default function Certificates() {
           <img
             src="/images/cer.png"
             alt="Cybersecurity Fundamentals Certificate"
+            className="w-100  rounded shadow-lg mx-auto"
+          />
+        </div>
+         <div className="text-white text-center">
+          <h3 className="text-lg font-semibold mb-2">Software Testing</h3>
+         
+          <img
+            src="/images/reco.png"
+            alt="software testing Certificate"
             className="w-100  rounded shadow-lg mx-auto"
           />
         </div>

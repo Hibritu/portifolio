@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
@@ -11,6 +11,8 @@ export default function Contact() {
     email: '',
     message: '',
   });
+  const [emailJsReady, setEmailJsReady] = useState(false);
+  const [emailJsError, setEmailJsError] = useState('');
 
   const handleChange = (e) => {
     setFormData((prev) => ({
@@ -20,18 +22,32 @@ export default function Contact() {
   };
 
   useEffect(() => {
-    const pubKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
-    if (pubKey) emailjs.init(pubKey);
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || 'se-j2iNa3F5ebJLmg';
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+
+    if (!serviceId || !templateId) {
+      setEmailJsError('EmailJS is not fully configured. Please set service and template IDs.');
+      setEmailJsReady(false);
+      return;
+    }
+
+    emailjs.init(publicKey);
+    setEmailJsReady(true);
   }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (!emailJsReady) {
+      alert('Email service is not configured. Please contact me directly if you need help.');
+      return;
+    }
+
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
       message: formData.message,
-      // Ensure replies go to the sender
       reply_to: formData.email,
     };
 
@@ -39,8 +55,7 @@ export default function Contact() {
       .send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
-        templateParams,
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
+        templateParams
       )
       .then(() => {
         alert('Message sent successfully!');

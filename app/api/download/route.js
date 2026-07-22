@@ -3,7 +3,7 @@ import path from 'path';
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), 'public', 'hibrlCv Resume.pdf');
+    const filePath = path.join(process.cwd(), 'public', 'Hibritu_Diress_CV.pdf');
     const data = await fs.promises.readFile(filePath);
 
     return new Response(data, {

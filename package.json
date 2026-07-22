@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@geist-ui/react": "^2.2.5",
-    "emailjs-com": "^3.2.0",
     "ionicons": "^8.0.13",
     "next": "^15.4.8",
     "react": "^19.2.1",

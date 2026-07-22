@@ -63,23 +63,23 @@ export default function HeroSection() {
               </button>
             </a>
 
-            <a href="/api/download" download="Hibritu_Diress_CV.pdf">
-  <button className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-yellow-500 hover:bg-yellow-600 transition">
-    Download CV
-  </button>
-</a>
+            <a href="/Hibritu_Diress_CV.pdf" download="Hibritu_Diress_CV.pdf">
+              <button className="p-2 px-6 text-white font-semibold rounded-full outline outline-2 outline-yellow-500 hover:bg-yellow-600 transition">
+                Download CV
+              </button>
+            </a>
 
           </div>
           
           {/* Social links under hero */}
           
         </div>
-        <div className="relative md:w-40 sm:w-48 w-36 group">
+        <div className="relative md:w-60 sm:w-68 w-56 group">
   <div className="pointer-events-none absolute -inset-4 rounded-[3rem] blur-2xl bg-gradient-to-tr from-green-400/25 via-emerald-300/15 to-transparent opacity-70 group-hover:opacity-90 transition-opacity duration-500"></div>
   <div className="pointer-events-none absolute -inset-2 rounded-[3rem] border border-green-400/30 [mask-image:radial-gradient(circle,transparent_58%,black)] animate-[spin_20s_linear_infinite]"></div>
   <img
     className="relative z-8 w-full h-auto sm:rounded-sm sm:rounded-br-[5rem] sm:rounded-tl-[5rem] rounded-[3rem] outline outline-[.25rem] outline-green-400/40 shadow-xl transition-transform duration-500 ease-out group-hover:scale-[1.02] group-hover:-rotate-[0.5deg] animate-float"
-    src="/images/hibr.jpg"
+    src="/images/hibr.png"
     alt="Hibritu Diresss"
     loading="eager"
     decoding="async"
